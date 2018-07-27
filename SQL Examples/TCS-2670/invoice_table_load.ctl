@@ -1,0 +1,5 @@
+LOAD DATA
+infile '?'
+INTO TABLE appsupport.tcs####_invoices
+FIELDS TERMINATED BY "," OPTIONALLY ENCLOSED BY "'"
+(INVOICE_NUMBER)
